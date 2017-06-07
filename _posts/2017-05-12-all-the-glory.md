@@ -21,7 +21,7 @@ Of course you can try yourself by opening your terminal and carefully typing:
 
 You should be able to see something like this:
 
-![Screenshot](http://imgur.com/a/vANGj)
+![Screenshot](http://i.imgur.com/MyiDcij.gif)
 
  -- ALL THE GLORY TO THE HYPNOTOAD!!! :frog:
 
