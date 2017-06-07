@@ -13,9 +13,17 @@ author: belinhacbr
 externalLink: false
 ---
 
-![Screenshot](https://thumbs.gfycat.com/GrandNarrowIvorybackedwoodswallow-size_restricted.gif)
+Since ALL SHALL OBEY THE HYPNOTOAD, this is an ascii respresentation of -- ALL THE GLORY TO THE HYPNOTOAD!!!
 
-ALL SHALL OBEY THE HYPNOTOAD
+Of course you can try yourself by opening your terminal and carefully typing:
+
+`$ curl hypntd.belinhacbr.xyz`
+
+You should be able to see something like this:
+
+![Screenshot](http://imgur.com/a/vANGj)
+
+ -- ALL THE GLORY TO THE HYPNOTOAD!!! :frog:
 
 ---
 
