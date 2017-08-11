@@ -11,7 +11,7 @@ layout: page
 
 
 
-<p>In case you are unsatisfied with the lack of meaning, don't worry I got you covered.</p>
+<p>In case you are unsatisfied with the lack of meaning, don't worry, I got you covered.</p>
 
 
 
