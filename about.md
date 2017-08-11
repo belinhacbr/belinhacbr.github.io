@@ -20,4 +20,6 @@ In case you are unsatisfied with the lack of meaning, don't worry I got you cove
 
 
 It is, in fact, a banana that grew on the left earlobe of Artemis, the Goddess of the hunt. According to the legend, the banana poped out to life when she accidentally sneezed while practicing shooting with her bow at wild beasts. 
+
+
 Have a nice and meaningful day!</p>
