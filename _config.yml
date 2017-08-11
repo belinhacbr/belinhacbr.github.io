@@ -1,6 +1,6 @@
 # main text of home
 name: Isabella Ribeiro
-bio: Traveling through time'n'space discovering the wonders of programming
+bio: Spinning through time'n'space in a slightly tilted spaceship
 
 # twitter summary info
 description: Just another alley on this vast internet
@@ -54,7 +54,7 @@ email: belinhacbr@gmail.com
 authors:
     belinhacbr:
         name: Isabella Ribeiro
-        bio: Traveling through time'n'space discovering the wonders of programming
+        bio: Spinning through time'n'space in a slightly tilted spaceship
         external-image: true
         picture: https://avatars3.githubusercontent.com/u/5216794
         twitter: belinhacbr
