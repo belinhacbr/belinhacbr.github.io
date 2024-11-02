@@ -81,6 +81,9 @@ projects: true
 # about: true
 blog: true
 
+# if you don't need about, comment the *about* configs below
+about: true
+
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
