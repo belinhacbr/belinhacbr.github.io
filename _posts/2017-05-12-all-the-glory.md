@@ -27,5 +27,5 @@ You should be able to see something like this:
 
 ---
 
-[Check it out](https://github.com/belinhacbr/ascii-hypnotoad) here.
+Check it out [here](https://github.com/belinhacbr/ascii-hypnotoad).
 If you need some help, just [tell me](https://github.com/belinhacbr/ascii-hypnotoad/issues).
