@@ -23,9 +23,6 @@
 name: Isabella Ribeiro
 bio: Software Engineer
 
-# twitter summary info
-# description: Just another alley on this vast internet
-
 # if it's an external image, update below for true
 # better with square images
 external-image: true
@@ -92,7 +89,6 @@ related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
-
 
 # do you want some animations?
 animation: true
