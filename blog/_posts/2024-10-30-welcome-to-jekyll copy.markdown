@@ -1,13 +1,13 @@
 ---
 title: "NEW POST"
 layout: post
-date: 2024-05-10 22:10
+date: 2024-10-30 22:10
 tag: something-cool
 image: /assets/images/banner.png
 headerImage: true
 blog: true
 hidden: false # don't count this post in blog pagination
-description: "TO THE HYPNOTOAD"
+description: "???"
 category: blog
 author: belinhacbr
 externalLink: false

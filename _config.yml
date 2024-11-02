@@ -40,7 +40,7 @@ picture: https://avatars3.githubusercontent.com/u/5216794
 url: https://belinhacbr.xyz
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: /:categories/:year-:month-:day-:title/
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -93,8 +93,6 @@ related: true
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
-# show author block at the end of a post ?
-show-author: false
 
 # do you want some animations?
 animation: true
