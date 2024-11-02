@@ -23,7 +23,7 @@ You should be able to see something like this:
 
 ![Screenshot](http://i.imgur.com/MyiDcij.gif)
 
- -- ALL THE GLORY TO THE HYPNOTOAD!!! :frog:
+ -- ALL THE GLORY TO THE HYPNOTOAD!!! 🐸
 
 ---
 

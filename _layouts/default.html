@@ -12,7 +12,9 @@ layout: compress
     <meta name=description content="{{ site.bio }}">
     <meta name=author content="{{ site.name }}">
 
+    {% feed_meta %}
     {% seo %}
+
     {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
@@ -42,9 +44,10 @@ layout: compress
         </div>
     </div>
 
+
     {% include icons.html %}
-
+    {% comment %}
     {% include analytics-google.html %}
-
+    {% endcomment %}
 </body>
 </html>

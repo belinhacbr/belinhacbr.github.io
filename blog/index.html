@@ -5,9 +5,23 @@ layout: page
 title: Blog
 ---
 <section class="list">
-	{% if site.posts.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.paginate %}
+
+	{% assign showing_posts = false %}
+	{% for post in site.posts %}
+		{% if post.category == 'blog' and post.hidden == false %}
+			{% assign showing_posts = true %}
+		{% endif %}
+	{% endfor %}
+
+
+	{% if showing_posts == false %}
+		<div class="empty">
+			<img src="/assets/images/icons/Files-Folder-Empty.png" />
+			<p>Nothing published yet!</p>
+		</div>
+	{% endif %}
+
+	{% if site.paginate %}
 		{% for post in paginator.posts %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
