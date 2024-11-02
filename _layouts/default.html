@@ -12,6 +12,7 @@ layout: compress
     <meta name=description content="{{ site.bio }}">
     <meta name=author content="{{ site.name }}">
 
+    {% include google-tagmanager-head.html %}
     {% feed_meta %}
     {% seo %}
 
@@ -28,6 +29,7 @@ layout: compress
 
 </head>
 <body>
+    {% include google-tagmanager-noscript.html %}
 
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
@@ -46,8 +48,5 @@ layout: compress
 
 
     {% include icons.html %}
-    {% comment %}
-    {% include analytics-google.html %}
-    {% endcomment %}
 </body>
 </html>
