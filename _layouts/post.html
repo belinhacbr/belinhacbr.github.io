@@ -21,7 +21,9 @@ layout: page
     </div>
 {% endif %}
 
-{{content}}
+{{ content }}
+
+<hr>
 
 {% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
@@ -38,12 +40,4 @@ layout: page
 
 {% if site.related %}
     {% include related.html %}
-{% endif %}
-
-{% if site.show-author %}
-    {% include author.html %}
-{% endif %}
-
-{% if site.disqus.categories contains page.category %}
-    {% include disqus.html %}
 {% endif %}

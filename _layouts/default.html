@@ -12,7 +12,10 @@ layout: compress
     <meta name=description content="{{ site.bio }}">
     <meta name=author content="{{ site.name }}">
 
+    {% include google-tagmanager-head.html %}
+    {% feed_meta %}
     {% seo %}
+
     {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
@@ -26,6 +29,7 @@ layout: compress
 
 </head>
 <body>
+    {% include google-tagmanager-noscript.html %}
 
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
@@ -42,9 +46,7 @@ layout: compress
         </div>
     </div>
 
+
     {% include icons.html %}
-
-    {% include analytics-google.html %}
-
 </body>
 </html>
