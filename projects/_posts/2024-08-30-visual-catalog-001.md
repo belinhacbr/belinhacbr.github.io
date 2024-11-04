@@ -2,7 +2,7 @@
 title: "Visual Catalog - 001 Moontide"
 layout: post
 date: 2024-08-30 20:30
-tags: [visual-catalog, moontide]
+tags: [visual-catalog, moontide, javascript]
 image: https://imgur.com/TpNw8Ry.gif
 headerImage: true
 projects: true

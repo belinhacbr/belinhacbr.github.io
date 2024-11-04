@@ -2,7 +2,7 @@
 title: "All the glory to the Hypnotoad"
 layout: post
 date: 2017-05-12 22:10
-tag: Hypnotoad
+tags: [hypnotoad, python]
 image: https://media.giphy.com/media/rou0CTAp6Z8VW/giphy.gif
 headerImage: true
 projects: true
