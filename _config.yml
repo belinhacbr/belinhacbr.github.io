@@ -39,6 +39,7 @@ url: https://belinhacbr.xyz
 
 permalink: /:categories/:year-:month-:day-:title/
 
+analytics: '{"token": "d5fd3472578b4ce29868277ff9aa27da"}'
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 # twitter: belinhacbr

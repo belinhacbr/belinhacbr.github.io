@@ -30,15 +30,15 @@ layout: compress
 </head>
 <body>
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.tag or page.tags %}
-            <div class="post">
-        {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
+            {% if page.tag or page.tags %}
+                <div class="post">
             {% else %}
-                <div class="{{ page.title | downcase }}">
+                {% if showHeader != true %}
+                    <div class="page {{ page.title | downcase }}">
+                {% else %}
+                    <div class="{{ page.title | downcase }}">
+                {% endif %}
             {% endif %}
-        {% endif %}
 
             {{ content }}
         </div>
@@ -46,5 +46,9 @@ layout: compress
 
 
     {% include icons.html %}
+
+    {% if site.analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
 </body>
 </html>
