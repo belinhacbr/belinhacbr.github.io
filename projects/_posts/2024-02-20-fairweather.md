@@ -28,7 +28,7 @@ I ended up using [Openweather](https://openweathermap.org/) to get the essential
 
 ![](https://imgur.com/dUZhy1B.png)*The final(current) version and my initial lousy sketch*
 
-You can check it out or install the app [here](https://fairweather.belinhacbr.xyz/). The source code is availble on [github](https://github.com/belinhacbr/fairweather).
+You can check it out or install the app [here](https://fairweather.belinhacbr.xyz/). The source code is available on [github](https://github.com/belinhacbr/fairweather).
 
 This app was made in less than a week in February, and I've been using it ever since, it's simple and it gets me out there. I could add more elaborate information but after a thought I realised that too much information would make me overthink the whole process. After all, I’m not looking for the *perfect* weather —I’m just looking for a window when it’s *good enough* to get outside. Living in Scotland, you quickly realize that the “perfect” time to get out is a myth. The perfect time to get out is the time you *do* get out, with the right precautions in place to not get caught in a sticky situation.
 
