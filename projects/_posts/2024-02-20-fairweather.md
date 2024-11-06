@@ -24,6 +24,7 @@ At the initial sketch, I wanted:
 - highlight some selected harzards like ice and snow.
 
 I kept the design minimal and a bit boring —just enough information to help me decide whether it was a good day to head out. I didn’t want too much data or too many details. I was after something that would be quick to read and would make the decision easier, not harder. By design, the least straight forward logic was helper text, I wanted a single sentence to remind me how I *personally* feel under those conditions. For the looks, I wanted two contrasting colors only, a font that was technical and also rough around the edges, and simple outlined icons.
+
 I ended up using [Openweather](https://openweathermap.org/) to get the essential weather data, it's fairly accurate for my use case. I used Typescript for the app, and I wanted to give [Next.js](https://nextjs.org/docs) another chance, the middleware would be useful for data fetching and the deployment vercel was very straight forward. For the "next few hours" line graph I used [Airbnb's visx/curve](https://airbnb.io/visx/docs/curve), it already had the look and shape I was looking for, and was easy to use.
 
 ![](https://imgur.com/dUZhy1B.png)*The final(current) version and my initial lousy sketch*
