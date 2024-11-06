@@ -14,7 +14,7 @@ externalLink: false
 ---
 Winter months can be tough for people living in the north. I enjoy cycling during the warmer months, but long periods of cold and darkness can make me shy away from this activity. Sometimes, I just need a bit of reassurance that I won’t be caught in a storm at the top of a hill. After a particularly long week of cold slush in February, I felt like I needed something to help me decide when it was a good window to get outside. And so, after a couple days Fairweather was a-live!
 
-At the initial sketch, I wanted:
+At the initial sketch, I wanted the app to:
 - display the current location;
 - provide a quick glimpse of the weather conditions and temperature;
 - offer a short description of how the day might feel for me;
