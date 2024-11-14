@@ -22,7 +22,7 @@ At the initial sketch, I wanted the app to:
 - include a forecast for the next few hours;
 - highlight any potential hazards, like ice and snow.
 
-I kept the design minimal and a bit boring —just enough information to help me decide whether it was a good day to head out. I didn’t want too much data or too many details. I was after something that would be quick to read and would make the decision easier, not harder. The least straightforward logic was the helper text, I wanted a single sentence to remind me how *I* personally feel under those conditions.
+I kept the layout minimal and a bit boring —just enough information to help me decide whether it was a good day to head out. I didn’t want too much data or too many details. I was after something that would be quick to read and would make the decision easier, not harder. The least straightforward logic was the helper text, I wanted a single sentence to remind me how *I* personally feel under those conditions.
 
 For the design, I kept it simple: just two contrasting colors, a technical font with a bit of roughness to it, and simple, outlined icons.
 
