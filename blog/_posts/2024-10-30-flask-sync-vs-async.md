@@ -73,7 +73,7 @@ Even though my request was now asynchronous, Flask is still using WSGI, which me
 
 Here is `Worker0` processing a request to a synchronous route:
 
-{% highlight text %}
+{% highlight ascii %}
               ┌──────────────────────────┐
    Request    │        ┌───────────────┐ │
 ──────────────► Worker0│/io            │ │
@@ -85,7 +85,7 @@ Here is `Worker0` processing a request to a synchronous route:
 
 And here is `Worker1` processing a request to an asynchronous route:
 
-{% highlight text %}
+{% highlight ascii %}
               ┌──────────────────────────┐
    Request    │        ┌───────────────┐ │       ┌───────────────┐
 ──────────────► Worker1│/async-io      │ │       │  Event Loop   │
@@ -99,7 +99,7 @@ And here is `Worker1` processing a request to an asynchronous route:
 
 while `Worker2` is processing a request to an asynchronous route with multiple concurrent tasks:
 
-{% highlight text %}
+{% highlight ascii %}
               ┌──────────────────────────┐
    Request    │        ┌───────────────┐ │       ┌───────────────┐
 ──────────────► Worker2│/async-io-multi│ │       │  Event Loop   │
