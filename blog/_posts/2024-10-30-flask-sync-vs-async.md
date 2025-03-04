@@ -39,6 +39,7 @@ During testing, I noticed that whenever my application received more than 4 requ
 In this example, `/io` is an endpoint with an IO-bound task that took 1 second to be completed. So, sending 16 requests at once to this route, Flask would handle a batch of 4 requests concurrently, taking a total time of 4 seconds to process all of them. As you can see from the timestamps, even though all requests were sent concurrently, the request `n` takes `⌊n/number_workers⌋*task_time` to respond.
 
 That was happening because of two reasons:
+
  1. Flask is by default a *synchronous* framework
  2. Flask is based on WSGI, and WSGI uses *one worker* to handle *one request/response* cycle
 
@@ -110,8 +111,6 @@ while `Worker2` is processing a request to an asynchronous route with multiple c
                                 └─────────────────────┘
                                           Result
 {% endhighlight %}
-
-
 
 Since I had a single asynchronous task per request, the worker being idle instead of switching to other incoming requests, makes the asynchronous benefit invisible.
 
