@@ -7,14 +7,14 @@ image: /assets/images/banner.png
 headerImage: true
 blog: true
 hidden: false # don't count this post in blog pagination
-description: "Why does my team's CI/CD pipeline keep failing?"
+description: "Why does this CI/CD pipeline keep failing?"
 category: blog
 author: belinhacbr
 externalLink: false
 ---
-If you've ever stared at a red X in your CI/CD pipeline and muttered, *"Why does my team's CI/CD pipeline keep failing?"*, you're not alone, adventurer. I feel pipeline failures are similar to unexploded WWII bombs in your DevOps workflow: they frustrate the team, slow you down and often stem from sneaky, overlooked issues.
+I did my fair share of staring at a red X in my CI/CD pipeline while muttering: *"Why does this CI/CD pipeline keep failing?"*, not always sure if I made the undesired sight happen, but always knowing I wasn't alone in this. I feel pipeline failures are similar to unexploded WWII bombs in your DevOps workflow: they frustrate the team, slow you down and often stem from sneaky, overlooked issues.
 
-Before you rage-quit, `rm -rf` your entire setup and never see a sweet terminal again, let's run a quick **sanity check** on the usual suspects.
+Before rage-quitting, `rm -rf` an entire setup and never seeing a sweet terminal again, I got the habit to run a quick **sanity check** on the usual suspects.
 
 ### 1. The Obvious Culprit: Your Code
 
