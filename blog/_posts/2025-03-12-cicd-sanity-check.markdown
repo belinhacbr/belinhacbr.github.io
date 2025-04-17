@@ -23,7 +23,7 @@ Before rage-quitting, `rm -rf` an entire setup and never seeing a sweet terminal
 - **Dependency hell?** `npm install`, `pip`, or `go mod` can break overnight. Lock your versions.
 - **New failure?** **Write a test for it.** If something breaks in CI, it'll break again. Capture the bug with a test *now* instead of future-you debugging it twice.
 
-**Quick sanity check (eg.) :**
+**Quick sanity check (e.g.) :**
 
 ```bash
 # Reproduce locally, then lock it down with a test
@@ -37,7 +37,7 @@ Your `.gitlab-ci.yml`, `Jenkinsfile`, or GitHub Actions workflow might be:
 - **Using outdated syntax** (CI tools evolve fast).
 - **Assuming wrong environments** ("But it works on my machine!").
 
-**Quick sanity check (eg.) :**
+**Quick sanity check (e.g.) :**
 
 ```yaml
 # Validate your configs (e.g., GitHub Actions)
@@ -57,7 +57,7 @@ gh workflow lint .github/workflows/deploy.yml
 - **Typos:** `DATABASE_URL` ≠ `DB_URL` (case sensitivity matters!).
 - **Scope issues:** Does the variable exist in *this* job/stage?
 
-**Quick sanity check (eg.) :**
+**Quick sanity check (e.g.) :**
 
 ```bash
 # Debug env vars in CI (GitHub Actions example)
@@ -71,7 +71,7 @@ gh workflow lint .github/workflows/deploy.yml
 - **Wrong permissions?** Can your runner access the registry, repo, or deployment target?
 - **Resource limits?** OOM kills, slow runners, or Docker rate limits can fail builds.
 
-**Quick sanity check (eg.) :**
+**Quick sanity check (e.g.) :**
 
 ```bash
 # Debug permissions in a CI step
@@ -85,7 +85,7 @@ gh workflow lint .github/workflows/deploy.yml
 - **APIs down?** Tests calling `https://some-unreliable-api.com` will fail randomly. Mock these as much as possible without compromising your tests.
 - **Package registry issues?** npm, PyPI, or Maven outages do break builds. Breathe. Cache if possible.
 - **Race conditions?** Parallel jobs might conflict (e.g., DB migrations vs. tests). These deserve their own place in hell but also another chance.
-**Quick sanity check (eg.) :**
+**Quick sanity check (e.g.) :**
 
 ```yaml
 # Retry flaky steps in GitHub Actions
@@ -101,7 +101,7 @@ gh workflow lint .github/workflows/deploy.yml
 - **Manual hotfixes?** Untracked changes in production can desync with CI. I know there's no time to run a pipeline, run it anyway.
 - **Stale branches?** Merging old code without rebasing = 💥. Run pipelines on every bit of code. Fail in a PR, always merge with a pass and live a happy life.
 
-**Quick sanity check (eg.) :**
+**Quick sanity check (e.g.) :**
 ```bash
 # Enforce "test before merge"
 git push origin HEAD --force-with-lease  # (Just kidding, don't.)
