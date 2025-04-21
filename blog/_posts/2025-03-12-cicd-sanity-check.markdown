@@ -1,5 +1,5 @@
 ---
-title: "My CI/CD pipeline sanity check"
+title: "CI/CD pipeline sanity check"
 layout: post
 date: 2025-03-12 19:13
 tags: [devops, cicd]
@@ -12,7 +12,9 @@ category: blog
 author: belinhacbr
 externalLink: false
 ---
-I did my fair share of staring at a red X in my CI/CD pipeline while muttering: *"Why does this CI/CD pipeline keep failing?"*, not always sure if I made the undesired sight happen, but always knowing I wasn't alone in this. I feel pipeline failures are similar to unexploded WWII bombs in your DevOps workflow: they frustrate the team, slow you down and often stem from sneaky, overlooked issues.
+I did my fair share of staring at a red X in my CI/CD pipeline while muttering: *"Why does this CI/CD pipeline keep failing?"*, not always sure if I made the undesired sight happen, but always knowing I wasn't alone in this.
+
+I feel pipeline failures are similar to unexploded WWII bombs in your DevOps workflow: they often frustrate the team, slow you down and stem from sneaky, overlooked issues.
 
 Before rage-quitting, `rm -rf` an entire setup and never seeing a sweet terminal again, I got the habit to run a quick **sanity check** on the usual suspects.
 
