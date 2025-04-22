@@ -18,7 +18,7 @@ I feel pipeline failures are similar to unexploded WWII bombs in your DevOps wor
 
 Before rage-quitting, `rm -rf` an entire setup and never seeing a sweet terminal again, I got the habit to run a quick **sanity check** on the usual suspects.
 
-### 1. The Obvious Culprit: Your Code
+### 1. The Obvious Culprit: Our Code
 
 - **Failing tests?** Check the logs! Flaky tests, race conditions, or bad assertions love to sneak in.
 - **Syntax errors?** Linters and IDE checks help, but CI systems don't forgive typos. Mirror the pipeline linter on your IDE, hold it close.
@@ -113,7 +113,7 @@ git push origin HEAD --force-with-lease  # (Just kidding, don't.)
 
 ### Main Quest: Make Your Pipeline Resilient
 
-- **Fail fast**: Put cheap checks (lint, unit tests) early. Run pipelines early, either on branches or PRs, avoid breaking `main`.
+- **Fail fast**: Put cheap checks (lint, unit tests) early. Run pipelines as soon as you can, either on branches or PRs, avoid breaking `main`.
 - **Log everything**: Debugging without logs is like fixing a car blindfolded while holding a hyperactive hamster. If a riddle appears in the form of an error message, add some logs to help the next tortured soul (might be future-you).
 - **Automate recovery**: Auto-retry flaky steps, but **always** with limits.
 
