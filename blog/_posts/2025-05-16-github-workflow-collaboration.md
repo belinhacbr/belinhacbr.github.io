@@ -29,7 +29,7 @@ We all love our feature branches, right? They keep our main codebase clean and f
 * **Short and Sweet Always:** Tiny, focused feature branches are a trusted allies. They're easier to review, less likely to have merge conflicts, facilitate more frequent integration with the main codebase and generally just happier to work with.<br>
     [ *Ideal antidote for* long-lived forgotten branches with *way too many* changes. ]
 
-* **Explore Feature Flags:** This is new to me but it has the potential to be a superpower. Imagine being able to release code to a small group of users before unleashing it on everyone. Or even being able to work on new features in their own branches and merge them into the main codebase without making the incomplete or potentially unstable feature visible to users. Feature flags are like little toggles that will allow you do just that. Combine them with your branching strategy for safer and more controlled rollouts and you get a perfectly placed on/off switch for features.<br>
+* **Explore Feature Flags:** This is new to me but it has the potential to be a wild magic. Imagine being able to release code to a small group of users before unleashing it on everyone. Or even being able to work on new features in their own branches and merge them into the main codebase without making the incomplete or potentially unstable feature visible to users. Feature flags are like little toggles that will allow you do just that. Combine them with your branching strategy for safer and more controlled rollouts and you get a perfectly placed on/off switch for features.<br>
     [ *Ideal antidote for* coupled deployment/release cycles. ]
 
 ### Pull Requests: Fancy a touch of radiance?
