@@ -65,7 +65,7 @@ Ultimately, a great GitHub workflow is about how well your team collaborates.
 
 * **Talk it Out:** Sometimes, complex changes are easier to discuss in a quick call or a pair-programming session rather than just through comments on a pull request. Don't be afraid to hop on a call. Find the time, hash things out and summarize the discussion in a comment.
 
-* **Retrospectives:** Learn From Your Encounters! Regularly reflect on your workflow as a team and have a team huddle to strategize your next move. What's working well? What could be better? What do you dislike doing on regular basis? Use retrospectives to identify bottlenecks and experiment with new approaches. Make it periodic, consistent and structured; it keeps everyone isn the loop in the long-game.
+* **Retrospectives: Learn From Your Encounters!** Regularly reflect on your workflow as a team and have a team huddle to strategize your next move. What's working well? What could be better? What do you dislike doing on regular basis? Use retrospectives to identify bottlenecks and experiment with new approaches. Make it periodic, consistent and structured; it keeps everyone isn the loop in the long-game.
 
 ### Keep on levelling-up!
 
