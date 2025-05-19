@@ -1,5 +1,5 @@
 ---
-title: "CI/CD pipeline sanity check"
+title: "CI/CD Pipeline Sanity Check"
 layout: post
 date: 2025-03-12 19:13
 tags: [devops, cicd]
