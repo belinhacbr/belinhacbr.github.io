@@ -1,0 +1,26 @@
+
+<!-- Title Scramble effect -->
+<script>
+    console.log("Hello from the other side!");
+    const element = document.querySelector('.description');
+    console.log(element);
+    const bio = "{{ site.bio }}";
+    const alt_bio = "{{ site.alt_bio }}";
+    const options = alt_bio.split(" | ");
+    console.log(options);
+    element.addEventListener('mouseover', e => {
+        let iteration = 0;
+
+        const interval = setInterval(() => {
+            element.innerText = options[iteration];
+            console.log(options[iteration]);
+            iteration += 1;
+            if (iteration >= options.length) {
+                clearInterval(interval);
+                element.innerText = bio;
+                iteration = 0;
+            }
+        }, 300);
+    });
+
+</script>
