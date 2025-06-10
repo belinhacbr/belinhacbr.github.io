@@ -154,5 +154,6 @@ On the asynchronous endpoint with a single task `/async-io`, FastAPI is almost t
 Indeed, **async is not inherently faster than sync code**, even in a strictly IO-bound context and, that's specially true with Flask. Between all considerations, Flask does offer an interface for multiple concurrent IO-bound tasks, in which can be useful if you are able to subdivide your tasks in smaller chunks and optimize a few endpoints that are being slow. However, if you are doing mainly asynchronous tasks, it's worth considering other ASGI based frameworks.
 
 ---
-- Both frameworks were run with 4 workers, using [Gunicorn](https://gunicorn.org/) as the WSGI server for Flask and [Uvicorn](https://www.uvicorn.org/) as the ASGI server for FastAPI;
-- You can find the code for this post on [GitHub](https://github.com/belinhacbr/flask-perf).
+Both frameworks were run with 4 workers, using [Gunicorn](https://gunicorn.org/) as the WSGI server for Flask and [Uvicorn](https://www.uvicorn.org/) as the ASGI server for FastAPI;
+
+You can find the code for this post on [GitHub](https://github.com/belinhacbr/flask-perf).
