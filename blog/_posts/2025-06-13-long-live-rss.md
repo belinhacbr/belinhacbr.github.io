@@ -12,7 +12,7 @@ category: blog
 author: belinhacbr
 externalLink: false
 ---
-I've returned to using RSS feeds more extensibily for a while now, and what a refreshment it has been! A warm welcome to my long lost friend, the small web[^1], full of cool people.
+I've returned to using more RSS feeds for a while now, and what a refreshment it has been! A warm welcome to my long lost friend, the small web[^1], full of cool people.
 
 No more algorithm-driven feed. No more personalised clickbaits. No more dubious facts from sites I never visited. No more articles purposefully fed to me to please the ad-sense lords. Just control and intention over my content consumption.
 
@@ -22,7 +22,7 @@ It all starts with web syndication, a way to distribute content from one website
 
 RSS (Really Simple Syndication) is a consolidated popular (old!) format for web syndication. RSS feeds are machine readable XML files that contain a summary of the content, including titles, descriptions, and links to the full articles. It is indeed really simple! These elements are typically updated whenever new content is published.
 
-RSS feeds can be found on many websites, including <a href="/feed.xml" target="_blank">this one</a>. One can subscribe to RSS feeds using feed readers or aggregators, which automatically check for updates and display new content in a user-friendly format. RSS is particularly useful for people who want to stay updated on multiple websites without having to visit or refresh each one individually or fill your inbox with newsletters (ahem). It allows easy content discovery and online reading without distractions. There's many popular feed readers out there. Lately, I use [feeder][4] for its slim features. You can pick the one you like and are never locked in to any platform, pretty much every service and app supports exporting/importing RSS feeds.
+RSS feeds can be found on many websites, including <a href="/feed.xml" target="_blank">this one</a>. One can subscribe to RSS feeds using feed readers or aggregators, which automatically check for updates and display new content in a user-friendly format. RSS is particularly useful for people who want to stay updated on multiple websites without having to visit or refresh each one individually or fill your inbox with newsletters (ahem). It allows easy content discovery and online reading without distractions. There are many popular feed readers out there. Lately, I use [feeder][4] for its slim features. You can pick the one you like and are never locked in to any platform, pretty much every service and app supports exporting/importing RSS feeds.
 
 RSS is not just for blogs or news sites; it works for for any website that publishes content regularly. This includes podcasts, [YouTube channels][2], and even social media accounts[^5] [^6]. Subscribing to RSS feeds lets you receive updates on your favorite content without relying on algorithms or notifications from individual platforms.
 
