@@ -16,7 +16,7 @@ I've returned to using RSS feeds more extensibily for a while now, and what a re
 
 No more algorithm-driven feed. No more personalised clickbaits. No more dubious facts from sites I never visited. No more articles purposefully fed to me to please the ad-sense lords. Just control and intention over my content consumption.
 
-I can't help but feel that RSS one of the most underrated tools on the web. And there's so much more we can do with it!
+I can't help but feel that RSS is one of the most underrated tools on the web. And there's so much more we can do with it!
 
 It all starts with web syndication, a way to distribute content from one website to another, letting people subscribe to updates without visiting the original site. It allows decentralized content sharing, consumption, and access to desired content from multiple sources in a single place. While a conerstone of the searchable web, somewhere in the recent decade we took a wrong turn and started to rely on algorithms to decide what we want to read. This is where RSS comes in, as a simple and effective way to syndicate content across the web.
 
